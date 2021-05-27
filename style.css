@@ -1,0 +1,223 @@
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.wrapper {
+    position: relative;
+    width: 1575px;
+    height: 1379px;
+    margin: auto;
+
+}
+
+.load-more-img {
+    position: absolute;
+    width: 190px;
+    height: 35px;
+    right: 260px;
+    top: 28px;
+}
+
+.load-more-img > div {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.text-container {
+    overflow: auto;
+   
+    /* word-spacing: 15px; */
+}
+
+.icon-1 {
+    position: absolute;
+    left: 28%;
+    color: whitesmoke;
+}
+
+.icon-2 {
+    position: absolute;
+    left: 34%;
+    color: whitesmoke;
+}
+
+.icon-3 {
+    position: absolute;
+    left: 41%;
+    color: whitesmoke;
+}
+
+.icon-4 {
+    position: absolute;
+    left: 48%;
+    color: whitesmoke;
+}
+
+.icon-5 {
+    position: absolute;
+    left: 55%;
+    color: whitesmoke;
+}
+
+.text-container p{
+    float: left;
+    width: 8%;
+    text-align: center;
+    padding: 5px 40px;
+    font-size: 25px;
+}
+
+/* .text-container h6:hover{
+    background-color:violet;
+} */
+
+.title-2 {
+position: absolute;
+width: 458px;
+height: 135px;
+left: 95px;
+top: 100px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 67px;
+}
+
+.title-3 {
+    position: absolute;
+    width: 458px;
+    height: 135px;
+    left: 95px;
+    top: 160px;
+    
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 67px;
+    }
+
+.text {
+position: absolute;
+width: 394px;
+height: 96px;
+left: 95px;
+top: 270px;
+
+font-weight: bold;
+font-style: normal;
+color: rgb(141, 72, 141);
+font-size: 25px;
+line-height: 32px;
+}
+
+.text-2 {
+ position: absolute;
+width: 394px;
+height: 96px;
+left: 96px;
+top: 350px;
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+}
+
+.sign-up-btn {
+    position: absolute;
+    width: 138.44px;
+    height: 46.28px;
+    left: 97px;
+    top: 450px;
+}
+
+.sign-up-btn img {
+    width: 138.44px;
+    height: 46.28px;
+}
+
+.cloud-1 img{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    right: 230px;
+    top: 1px;
+    z-index: -1;
+}
+
+.pic-1 img{
+    position: absolute;
+    right: 230px;
+    top: 61px;
+}
+
+.part-2 img{
+    position: absolute;
+    top: 700px;
+    width: 700px;
+}
+
+.text-part-2 {
+    position: absolute;
+    right: 450px;
+    top: 800px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(57, 2, 255);
+    font-size: 43px;
+}
+
+.text-part-3 {
+    position: absolute;
+    right: 300px;
+    top: 970px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(57, 2, 255);
+    font-size: 43px;
+}
+
+.text-3 {
+    position: absolute;
+    left: 760px;
+    top: 900px;
+    width: 35%;
+}
+
+.text-4 {
+    position: absolute;
+    left: 760px;
+    top: 1070px;
+    width: 35%;
+}
+
+.river img{
+    position: absolute;
+    width: 1350px;
+    height: 500px;
+    right: 230px;
+    top: 1300px;
+    z-index: -1;
+}
+
+.pic-2 img {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    right: 1000px;
+    top: 1350px;
+}
